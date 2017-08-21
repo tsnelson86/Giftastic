@@ -29,7 +29,7 @@ renderbtn();
 //Function to display the proper gifs on a page based on the button pressed.
 function displayGif () {
 	var search = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=" + search + "&rating=pg&limit=10&ftm=json";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=" + search + "&rating=pg&limit=10&ftm=json";
 	$.ajax ({
 		url: queryURL,
 		method: "GET"
@@ -59,6 +59,7 @@ function renderbtn () {
 	}
 }
 
+//Function to change gif from a still to an animated state.
 function animateGif () {
   var state;
 	state = $(this).attr("data-state");
