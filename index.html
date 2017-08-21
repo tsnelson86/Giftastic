@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giphy AJAX Homework - Trevor Nelson</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Bootswatch Styling for Improving the Aesthetics -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="gif.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<!-- Buttons get added here -->
+			<div id="button-view"></div>
+
+			<!--Form to create new button-->
+			<form id="gif-form">
+				<label for="add-gif">Add a Category</label><br />
+				<input id="add-gif" type="text" /><br />
+				<input id="submitbtn" type="submit" value="Submit">
+			</form>
+
+		</div>
+
+		<!-- Gifs get added here -->
+		<div class="row">
+			<div id="giphy-view"></div>	
+		</div>
+	</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="gif.js"></script>
+</body>
+</html>

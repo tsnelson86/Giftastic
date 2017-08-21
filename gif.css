@@ -1,0 +1,44 @@
+
+.gifstuff {
+	display: inline-block;
+	margin: 25px 0px 0px 25px;
+}
+
+div {
+	display: block;
+}
+
+button,
+#submitbtn {
+	background-color:#2e6dd9;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 7px #283966;
+	margin: 10px 0px 25px 25px;
+}
+
+#submitbtn {
+	margin: 10px 0 0 0;
+}
+
+form {
+	float: right;
+}
+
+button:hover {
+	background-color:#476e9e;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
